@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando estilos</title>
+    <style>
+      p.red-color {
+        color: red;
+      }
+    </style>
+</head>
+<body>
+
+  <button type="button" onclick="setBlueBackground()">Fundo azul</button>
+  <button type="button" onclick="setTransparentBackground()">Fundo transparente</button>
+  <button type="button" onclick="setRedBackground()">Vermelho</button>
+  <button type="button" onclick="removeRedBackground()">Fundo normal</button>
+
+    <br>
+    
+  
+  <p id="style-text">
+    Manipulando css via DOM
+  </p>
+
+    <script src="/js/manipulating-style.js"></script>
+
+</body>
+</html>
